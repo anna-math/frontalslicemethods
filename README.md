@@ -9,7 +9,7 @@ The manuscript of this paper can be accessed at https://arxiv.org/abs/2408.13547
  -  Reproducible MATLab Code
 	 - fullfrontalDescent.m, implements the full frontal descent algorithm for solving tensor linear systems $\mathcal{A} * \mathcal{X} = \mathcal{B}$ defined by tensor t-product.
  - General Usage (fullfrontalDescent.m implements a handy wrapper)
-	 `[error, time, X_star] = frontalDescentAll(A, X, B, 'cyclic', paras);`
+	 `[error, time, Xt] = frontalDescentAll(A, X, B, 'cyclic', paras);`
 	 - This solves the system $\mathcal{A} * \mathcal{X} = \mathcal{B}$ supplied as `A,X,B` in the parameters.
 - Inputs
 	- AA: 3rd order measurement tensor of size n1 x n2 x nn
