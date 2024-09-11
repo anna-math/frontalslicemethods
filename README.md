@@ -1,5 +1,5 @@
 
-# TensorTProductSketch
+# Frontal Slice Methods for t-product systems
 
 **Content**
 This is the code repository for the research publication "Tensor Frontal Slice  Sketching Approaches to Large-Scale Linear Systems". 
