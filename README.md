@@ -29,10 +29,9 @@ The manuscript of this paper can be accessed at https://arxiv.org/abs/2408.13547
 	- Xt: approximation of solution to system
 
 **Abstract**
-Inspired by the row and column action methods for solving large-scale linear systems, in this work, we explore the use of frontal slices for solving tensor linear systems. In particular, this paper presents a novel approach for using frontal slices of a tensor A to solve tensor linear systems A*X=B where ∗ denotes the t-product. In addition, we consider variations of this method, including cyclic, block, and randomized approaches, each designed to optimize performance in different operational contexts. Our primary contribution lies in the development and convergence analysis of these methods. Experimental results on synthetically generated and real-world data, including applications such as image and video deblurring, demonstrate the efficacy of our proposed approaches and validate our theoretical findings.
+Inspired by the row and column action methods for solving large-scale linear systems, in this work, we explore the use of frontal slices for solving tensor linear systems. In particular, this paper presents a novel approach for using frontal slices of a tensor A to solve tensor linear systems A∗X=B where ∗ denotes the t-product. In addition, we consider variations of this method, including cyclic, block, and randomized approaches, each designed to optimize performance in different operational contexts. Our primary contribution lies in the development and convergence analysis of these methods. Experimental results on synthetically generated and real-world data, including applications such as image and video deblurring, demonstrate the efficacy of our proposed approaches and validate our theoretical findings.
 
 **Citation**
-We provided both iPynb illustrative code, Python production code for reproducible and experimental purposes under [LICENSE](https://github.com/hrluo/TensorDecisionTreeRegressor/blob/master/LICENSE).
 Please cite our paper using following BibTeX item:
 
     @article{2024tensorsketch,
