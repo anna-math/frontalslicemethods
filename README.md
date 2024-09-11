@@ -2,8 +2,8 @@
 # Frontal Slice Methods for T-product Systems
 
 **Content**
-This is the code repository for the research publication "Tensor Frontal Slice  Sketching Approaches to Large-Scale Linear Systems". 
-The manuscript of this paper can be accessed at https://arxiv.org/abs/1908.08864. 
+This is the code repository for the research publication "Frontal Slice Approaches for Tensor Linear Systems". 
+The manuscript of this paper can be accessed at https://arxiv.org/abs/2408.13547. 
 
  - We provided a set of illustrative code of sketching methods for solving t-product tensor linear system that serves as a proof of concept, and also a set of robust code that can be executed for accompanying datasets.
  -  Reproducible MATLab Code
@@ -29,19 +29,19 @@ The manuscript of this paper can be accessed at https://arxiv.org/abs/1908.08864
 	- Xt: approximation of solution to system
 
 **Abstract**
-Inspired by the row and column action methods for solving large-scale linear systems, in this work, we explore the use of frontal slices for solving tensor linear systems. In particular, this paper presents a novel approach for using frontal slices of a tensor $\mathcal{A}$ to solve tensor linear systems $\mathcal{A} * \mathcal{X} = \mathcal{B}$ where $*$ denotes the t-product. In addition, we consider variations of this method, including cyclic, block, and randomized approaches, each designed to optimize performance in different operational contexts. Our primary contribution lies in the development and convergence analysis of these methods. Experimental results on synthetically generated and real-world data, including applications such as image and video deblurring, demonstrate the efficacy of our proposed approaches and validate our theoretical findings.
+Inspired by the row and column action methods for solving large-scale linear systems, in this work, we explore the use of frontal slices for solving tensor linear systems. In particular, this paper presents a novel approach for using frontal slices of a tensor A to solve tensor linear systems A*X=B where ∗ denotes the t-product. In addition, we consider variations of this method, including cyclic, block, and randomized approaches, each designed to optimize performance in different operational contexts. Our primary contribution lies in the development and convergence analysis of these methods. Experimental results on synthetically generated and real-world data, including applications such as image and video deblurring, demonstrate the efficacy of our proposed approaches and validate our theoretical findings.
 
 **Citation**
 We provided both iPynb illustrative code, Python production code for reproducible and experimental purposes under [LICENSE](https://github.com/hrluo/TensorDecisionTreeRegressor/blob/master/LICENSE).
 Please cite our paper using following BibTeX item:
 
     @article{2024tensorsketch,
-        title={Tensor Frontal Slice Sketching Approaches to Large-Scale Linear Systems},
+        title={Frontal Slice Approaches for Tensor Linear Systems},
         author={Hengrui Luo, Anna Ma},
         year={2024},
-        eprint={https://arxiv.org/abs/2408.13547},
+        eprint={[https://arxiv.org/abs/2408.13547](https://arxiv.org/abs/2408.13547)},
         archivePrefix={arXiv},
         primaryClass={math.LA}
     }
 
-Thank you again for the interest and please reach out if you have further questions.
+Thank you again for your interest, and please reach out if you have further questions.
